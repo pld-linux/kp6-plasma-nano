@@ -1,19 +1,19 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeplasmaver	6.5.0
+%define		kdeplasmaver	6.5.1
 %define		qtver		5.15.2
 %define		kpname		plasma-nano
 %define		kf6ver		5.39.0
 
 Summary:	plasma-nano
 Name:		kp6-%{kpname}
-Version:	6.5.0
+Version:	6.5.1
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
-# Source0-md5:	c52c3500b2703ecb1ba003365f209ac7
+# Source0-md5:	48ab0c92f9097766aa79336916d8da50
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= 5.15.0
 BuildRequires:	Qt6Gui-devel >= 5.15.0
