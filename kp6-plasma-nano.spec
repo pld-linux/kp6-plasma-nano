@@ -38,6 +38,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A minimal plasma shell package intended for embedded devices.
 
+%description -l pl.UTF-8
+Pakiet z minimalną powłoką Plazmy przeznaczony dla urządzeń
+wbudowanych.
+
 %prep
 %setup -q -n %{kpname}-%{version}
 
